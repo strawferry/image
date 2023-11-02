@@ -242,6 +242,7 @@ const ImageInternal: CompoundedComponent<ImageProps> = props => {
           maxScale={maxScale}
           rootClassName={rootClassName}
           imageRender={imageRender}
+          draggable={false}
           imgCommonProps={imgCommonProps}
           toolbarRender={toolbarRender}
           {...dialogProps}

@@ -41,6 +41,7 @@ export interface PreviewProps extends Omit<IDialogPropTypes, 'onClose'> {
   alt?: string;
   fallback?: string;
   movable?: boolean;
+  draggable?: boolean;
   rootClassName?: string;
   icons?: {
     rotateLeft?: React.ReactNode;
